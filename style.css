@@ -3,9 +3,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.icon {
+  width: 20px;
+  height: 20px;
+}
 body {
   background-color: #14120b; 
+
   color: #fff;
   font-family: Arial, sans-serif;
 }
