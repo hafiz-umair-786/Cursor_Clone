@@ -151,6 +151,7 @@ button {
 .buttons-section2 {
   display: flex;
   align-items: center;
+  flex-direction: column;
   gap: 12px;
   flex-wrap: wrap;
 }
@@ -183,14 +184,20 @@ button {
   color: #fff;
 }
 
-/* Image 1: Main Screenshot sizing & styling */
-.image1 {
+/* Image containers alignment (desktop) */
+.image1,
+.image2,
+.image3,
+.image4,
+.image5,
+.image6 {
   width: 100%;
   display: flex;
   justify-content: center;
   padding: 0 20px;
 }
 
+/* Only the first image has custom screenshot styling on desktop */
 .image1 img {
   width: 100%;
   max-width: 900px;
@@ -198,31 +205,6 @@ button {
   border-radius: 12px;
   border: 1px solid rgba(255, 255, 255, 0.1);
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
-}
-
-/* Corporate Logos Section sizing & styling */
-.logos-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-  flex-wrap: wrap;
-  margin: 20px auto 40px auto;
-  width: 100%;
-  max-width: 1000px;
-  padding: 0 20px;
-}
-
-.logos-container img {
-  height: 20px;
-  width: auto;
-  object-fit: contain;
-  opacity: 0.6;
-  transition: opacity 0.2s;
-}
-
-.logos-container img:hover {
-  opacity: 0.9;
 }
 
 .try-section {
@@ -360,19 +342,19 @@ button {
     line-height: 1.25;
   }
 
-  /* Image 1 scaling */
-  .image1 img {
+  /* Image sizing and styling on mobile (all scaled down and responsive) */
+  .image1 img,
+  .image2 img,
+  .image3 img,
+  .image4 img,
+  .image5 img,
+  .image6 img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
     border-radius: 8px;
-  }
-
-  /* Partner logos layout on mobile */
-  .logos-container {
-    gap: 25px;
-    margin: 15px auto 30px auto;
-  }
-
-  .logos-container img {
-    height: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
   }
 
   /* Responsive layout adjustments for footer grid */

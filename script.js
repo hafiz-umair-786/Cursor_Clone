@@ -69,7 +69,7 @@ document.addEventListener('DOMContentLoaded', () => {
   allLinks.forEach(link => {
     link.addEventListener('click', (e) => {
       if (!link.classList.contains('has-submenu')) {
-        // Delay close slightly so user sees the tap feedback
+        
         setTimeout(() => {
           overlay.classList.remove('active');
         }, 150);
