@@ -124,7 +124,6 @@ This project is open source and available for personal and educational use.
 - GitHub: [@hafiz-umair-786](https://github.com/hafiz-umair-786)
 
 ---
-
-<p align="center">
+ 
   ⭐ If you found this project helpful, give it a star!
-</p>
+ 
